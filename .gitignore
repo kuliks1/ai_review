@@ -1,0 +1,34 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset
+data/
+
+# Training output
+log/
+model/
+runs/
+checkpoints/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# HuggingFace cache
+huggingface/
+.cache/
+
+# Secrets
+.env
