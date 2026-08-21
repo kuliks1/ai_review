@@ -19,6 +19,7 @@ def train():
     test_dataset = get_dataset(train=False)
 
     trainner_args = TrainingArguments(
+        output_dir="./output",
         per_device_train_batch_size=BATCH_SIZE,
         learning_rate=LR,
         warmup_steps=WARMUP_STEPS,
