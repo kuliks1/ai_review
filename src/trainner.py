@@ -30,7 +30,8 @@ def train():
         eval_steps=EVAL_STEPS,
         per_device_eval_batch_size=PER_DEVICE_EVAL_BATCH_SIZE,
         load_best_model_at_end=LOAD_BEST_MODEL_AT_END,
-        save_steps=EVAL_STEPS
+        save_steps=EVAL_STEPS,
+        fp16=True,
     )
 
     trainer = Trainer(model=model,
