@@ -26,5 +26,5 @@ def get_dataloader(train: bool = True):
 
 
 if __name__ == "__main__":
-    dataset =get_dataset()
+    dataset =get_dataset(False)
     print(dataset)
